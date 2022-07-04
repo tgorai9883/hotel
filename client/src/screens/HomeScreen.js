@@ -2,7 +2,7 @@ import React,{useState,useEffect} from "react";
 import axios from "axios";
 import Room from "../components/room";
 import Loader from "../components/Loader";
-import 'antd/dist/antd.css';
+import 'antd/dist/antd.min.css';
 import { DatePicker } from 'antd';
 import moment from "moment";
 import AOS from 'aos';
