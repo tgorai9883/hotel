@@ -118,6 +118,9 @@ function HomeScreen(){
                 
             </div>
             <div className="row justify-content-center mt-5">
+                {(!fromDate && !toDate) && 
+                    <h2 className="btn col-md-8">Please Select Date to Check Availability</h2>
+                }
                 {loading?<Loader/>:(
                     rooms.map((room)=>{
                         return <div className="col-md-8" data-aos="fade-up">

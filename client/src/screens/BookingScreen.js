@@ -21,7 +21,7 @@ function BookingScreen({match}){
     // const [totalAmount, setTotalAmount] = useState();
     useEffect(()=>{
         if(!localStorage.getItem('currentUser')){
-            window.location.reload='/login';
+            window.location.href='/login';
         }
         async function fetchData(){
             try {

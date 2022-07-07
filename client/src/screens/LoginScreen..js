@@ -34,7 +34,7 @@ function LoginScreen() {
         <div className="col-sm-5 shadow-lg rounded">
           {loading? <Loader/>: error? <Error message='Wrong Credentionals'/>:
           <div>
-          <h1 className="text-center mt-4"><b>Login</b></h1>
+          <h2 className="text-center mt-4"><b>Login To Book Hotel</b></h2>
           <Form onSubmit={login}>
             <Form.Group className="mb-3" controlId="email">
               <Form.Label>Email address</Form.Label>
